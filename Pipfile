@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+dev = "python main.py test_file.py"
+
+[packages]
+watchdog = "*"
+
+[dev-packages]
+pytest = "*"
+ptvsd = "*"
+nose = "*"
+isort = "*"
+pyflakes = "*"
+flake8 = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.9"
