@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-dev = "python main.py test_file.py"
+dev = "python main.py test/test_file.py"
 
 [packages]
 watchdog = "*"
