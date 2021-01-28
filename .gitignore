@@ -143,5 +143,10 @@ test_file.py
 # Visual Studio Code
 .vscode/
 
+<<<<<<< HEAD
+# Directory for test files
+tmp/
+=======
 # Test directory
 test/ 
+>>>>>>> 742319d (Added support for multiple files project)

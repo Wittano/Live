@@ -5,6 +5,7 @@ name = "pypi"
 
 [scripts]
 dev = "python main.py test/test_file.py"
+test = "pytest -q test"
 
 [packages]
 watchdog = "*"
@@ -17,6 +18,8 @@ isort = "*"
 pyflakes = "*"
 flake8 = "*"
 pylint = "*"
+jedi = "*"
+rope = "*"
 
 [requires]
 python_version = "3.9"
