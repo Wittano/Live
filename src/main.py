@@ -4,7 +4,10 @@ import sys
 
 from watchdog.observers import Observer
 
-from .handler.handler import FileHandler
+if __name__ == "__main__":
+    from handler.handler import FileHandler
+else:
+    from .handler.handler import FileHandler
 
 
 def main() -> None:

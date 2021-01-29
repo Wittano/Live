@@ -1,4 +1,4 @@
-$testDir=/tmp/test
+$testDir=tmp/test
 
 if [ ! -d  $testDir ]; then
     mkdir $testDir
